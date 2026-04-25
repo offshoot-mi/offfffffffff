@@ -5,7 +5,7 @@ import { useAuth } from './contexts/AuthContext.jsx';
 import TermsAndConditions from './components/TermsAndConditions';
 // Layout Components
 import Navbar from './components/Layout/Navbar.jsx';
-import Footer from './components/Layout/Footer.jsx';
+//import Footer from './components/Layout/Footer.jsx';
 import LoadingSpinner from './components/Common/LoadingSpinner.jsx';
 
 // Page Components (Lazy Loaded)
@@ -58,7 +58,7 @@ function App() {
           </Routes>
         </Suspense>
       </main>
-      <Footer />
+     
     </>
   );
 }
