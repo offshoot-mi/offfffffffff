@@ -1,0 +1,97 @@
+[
+  {
+    "_id": "1",
+    "id": "1",
+    "username": "sdfasdfas",
+    "email": "ght@mail.com",
+    "passwordHash": "$2a$12$LN7VXeEkVAlvbX4ktNDLk..G7gltceuGFVW4Ir3Qt4SJpH7R42u46",
+    "agreedToTerms": true,
+    "isEmailVerified": false,
+    "role": "user",
+    "status": "active",
+    "createdAt": "2026-04-04T10:34:14.388Z",
+    "updatedAt": "2026-04-04T10:34:14.393Z",
+    "followers": [],
+    "following": [],
+    "pendingFollowRequests": [],
+    "publishedArticles": [],
+    "savedArticles": [],
+    "totalGems": 0,
+    "lifetimeGems": 0,
+    "emailVerificationToken": "b1dd1d7e79faa51c2d8728888f3dcd4d8e5181b0d4aaed0761154f1f1f92927a",
+    "emailVerificationExpires": 1775385254392
+  },
+  {
+    "_id": "2",
+    "id": "2",
+    "username": "mmmmm",
+    "email": "offshoot019@gmail.com",
+    "passwordHash": "$2a$12$C5FFZSTVbGyLxXOYs9Y5MOZuvDgwhj/H.ecb8I5cN7iRI3Fm8n302",
+    "agreedToTerms": true,
+    "isEmailVerified": true,
+    "role": "user",
+    "status": "active",
+    "createdAt": "2026-04-04T11:03:02.306Z",
+    "updatedAt": "2026-04-06T07:40:23.483Z",
+    "followers": [
+      "3"
+    ],
+    "following": [],
+    "pendingFollowRequests": [],
+    "publishedArticles": [],
+    "savedArticles": [
+      {
+        "_id": "1775302584449",
+        "rootArticle": "1",
+        "lineagePathIds": [
+          "1",
+          "2",
+          "3"
+        ],
+        "customName": "Saved Path from 4/4/2026",
+        "savedAt": "2026-04-04T11:36:24.575Z",
+        "gemsAtSave": 0,
+        "blockCount": 3
+      },
+      {
+        "_id": "1775303107915",
+        "rootArticle": "4",
+        "lineagePathIds": [
+          "4"
+        ],
+        "customName": "Saved Path from 4/4/2026",
+        "savedAt": "2026-04-04T11:45:07.974Z",
+        "gemsAtSave": 0,
+        "blockCount": 1
+      }
+    ],
+    "totalGems": 0,
+    "lifetimeGems": 0,
+    "emailVerificationToken": "d744af96c5992cc2e23c345221a125b391994cb7b84a843cc1675124ebacbb06",
+    "emailVerificationExpires": 1775386982309,
+    "googleId": "116379815025438499149"
+  },
+  {
+    "_id": "3",
+    "id": "3",
+    "username": "sofonias",
+    "email": "sofoniasjkinfej@gmail.com",
+    "googleId": "104686820888637029872",
+    "isEmailVerified": true,
+    "passwordHash": "$2a$12$hH8RpxCrcAlzHgfZl6q1eO3vO/gqqFdoz2QFNrWuwM/fIcOOn2ZCa",
+    "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJnjKeqEYmRWY9CYnWcseo0yoQJvs1dz7DKkXl1PyF6sZxv=s96-c",
+    "role": "user",
+    "status": "active",
+    "createdAt": "2026-04-06T07:40:02.746Z",
+    "updatedAt": "2026-04-06T07:40:23.473Z",
+    "followers": [],
+    "following": [
+      "2"
+    ],
+    "pendingFollowRequests": [],
+    "publishedArticles": [],
+    "savedArticles": [],
+    "totalGems": 0,
+    "lifetimeGems": 0
+  }
+]
